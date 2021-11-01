@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import MenuList from '../menulist/MenuList';
 import "./menu.scss";
-import { coldMenu, hotMenu, flavoursMenu } from "../../menuData";
+import { coldMenu, hotMenu } from "../../menuData";
 
 export default function Menu() {
 
