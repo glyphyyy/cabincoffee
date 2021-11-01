@@ -1,0 +1,12 @@
+#logo-bg {
+    z-index: 0;
+    position: absolute;
+    top:120px;
+    right:0;
+    width: 40%;
+    
+    @media screen and (max-width: 750px)
+    {
+        display: none;
+    }
+}

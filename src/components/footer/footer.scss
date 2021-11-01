@@ -1,0 +1,112 @@
+@import "../../global.scss";
+
+
+.footer {
+    height: 40vh;
+    width: 100%;
+    background-color: $bgColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid 1px #E6D4C3;
+    background-image: url("../../logo-bg.svg");
+    background-repeat: no-repeat;
+    background-position-x: -25%;
+    background-position-y: 25%;
+    background-size: 60%;
+    position: relative;
+
+    @media screen and (max-width: 750px)
+    {
+        height: 30vh;
+    }
+
+    img {
+        height: 20%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: #86BF8F;
+        font-weight: 800;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        p {
+            font-size: 16px;
+            color: #86BF8F;
+
+            @media screen and (max-width: 750px)
+            {
+                text-align: center;
+            }
+
+            span {
+
+                @media screen and (max-width: 750px)
+                {
+                    display: block;
+                }
+            }
+        }
+
+        img {
+            height:20px;
+            width: auto;
+            margin-right: 10px;
+            margin-bottom:unset;
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        margin-left: 90px;
+
+        @media screen and (max-width: 750px)
+        {
+            display: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 30px 60px 0px 60px;
+
+            li {
+                margin-bottom: 5px;
+                font-size: 16px;
+                color: $paragraphTextColor;
+                
+                a {
+                    text-decoration: none;
+                    color: inherit;
+
+                    &:hover {
+                        color: #5B5B5B;
+                    }
+                }
+            }
+            #header {
+                font-weight: 800;
+                color: #86BF8F;
+            }
+        }
+    }
+
+    h2 {
+        bottom: 5px;
+        position: absolute;
+        font-weight: 400;
+        font-size: 14px;
+        color: $paragraphTextColor;
+    }
+}

@@ -1,0 +1,35 @@
+.menulist {
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #BA9A7B;
+    padding: 15px 20px;
+    transition: background-color .5s ease;
+    
+    @media screen and (max-width: 750px)
+    {
+        font-size: 16px;
+        padding: 16px 12px;
+        width: 64px;
+        margin: 5px;
+    }
+    @media screen and (max-width: 330px)
+    {
+        font-size: 14px;
+        padding: 16px 12px;
+    }
+
+    &:hover {
+        background-color: #B5D9A3;
+    }
+
+    &.active {
+        background-color: #86BF8F;
+    }
+}

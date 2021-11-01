@@ -1,0 +1,168 @@
+@import "../../global.scss";
+
+.menu {
+    max-height: 600vh;
+    width: 100%;
+    background-color: $bgColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .wrapper {
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        background-color: #D9B898;
+        @media screen and (max-width: 750px)
+        {
+            width: 100%;
+        }
+
+        h1 {
+            background-color: transparent;
+            font-size: 60px;
+            text-align: center;
+            color: #B39374;
+            margin-bottom: 10px;
+
+            @media screen and (max-width: 750px)
+            {
+                width: 90%;
+                font-size: 40px;
+            }
+            @media screen and (max-width: 330px)
+            {
+                font-size: 30px;
+            }
+            
+        }
+
+        p {
+            background-color: transparent;
+            font-size: 18px;
+            text-align: center;
+            color: #F1E8E0;
+            line-height: 26px;
+
+            @media screen and (max-width: 750px)
+            {
+                width: 90%;
+                font-size: 16px;
+            }
+            @media screen and (max-width: 330px)
+            {
+                font-size: 14px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        ul {
+            margin-top: 30px;
+            padding: 0;
+            list-style: none;
+            display: flex;
+
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 600px;
+            height: 300px;
+            padding: 20px;
+
+            @media screen and (max-width: 750px)
+            {
+                flex-direction: column;
+                width: 400px;
+                height: 350px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+
+                @media screen and (max-width: 750px)
+                {
+                    height: 40%;
+                }
+            }
+
+            .text-wrapper {
+                width: 500px;
+                margin-left: 30px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                @media screen and (max-width: 750px)
+                {
+                    align-items: center;
+                    flex-direction: column;
+                    width: 400px;
+                    margin-left: 0;
+                    height: 60%;
+                }
+
+                h3 {
+                    font-size: 40px;
+                    color: #86BF8F;
+
+                    @media screen and (max-width: 750px)
+                    {
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: $paragraphTextColor;
+                    margin-bottom: 20px;
+                    @media screen and (max-width: 750px)
+                    {
+                        font-size: 14px;
+                        width: 90%;
+                        text-align: center;
+                    }
+                }
+
+                ul {
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        font-size: 16px;
+                        line-height: 30px;
+                        color: $paragraphTextColor;
+                    
+                        span {
+                            color: #5B5B5B;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

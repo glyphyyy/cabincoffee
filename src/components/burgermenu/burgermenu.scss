@@ -1,0 +1,50 @@
+@import "../../global.scss";
+
+.burgermenu {
+    width: 300px;
+    height: 100vh;
+    background-color: $headerTextColor;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    z-index: 30;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    transition: all 1s ease;
+    opacity: 0;
+
+    &.active {
+        right: 0;
+        opacity: 1;
+    }
+
+    ul {
+        height: 60%;
+        margin-top: 110px;
+        margin-right: 40px;
+        padding: 0;
+        list-style: none;
+        color: #FCECD1;
+        font-size: 24px;
+        text-align: right;
+
+        li {
+            margin-bottom: 30px;
+            
+            a {
+                font-family: 'Poppins', sans-serif;
+                text-align: inherit;
+                text-decoration: none;
+                color: inherit;
+                font-size: inherit;
+                font-weight: 500;
+            }
+
+            &:hover {
+                color: #F09F71;
+                transition: all .5s ease;
+            }
+        }
+    }
+}
