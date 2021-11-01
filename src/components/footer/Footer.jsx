@@ -12,20 +12,20 @@ export default function Footer() {
             <div className="links">
                 <ul>
                     <li id="header">THE CABIN</li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Seasonal</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="#footer">Home</a></li>
+                    <li><a href="#footer">Seasonal</a></li>
+                    <li><a href="#footer">Menu</a></li>
                 </ul>
                 <ul>
                     <li id="header">DOCS</li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Nutrition</a></li>
-                    <li><a href="">Allergy</a></li>
+                    <li><a href="#footer">Menu</a></li>
+                    <li><a href="#footer">Nutrition</a></li>
+                    <li><a href="#footer">Allergy</a></li>
                 </ul>
                 <ul>
                     <li id="header">PRIVACY</li>
-                    <li><a href="">Privacy policy</a></li>
-                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="#footer">Privacy policy</a></li>
+                    <li><a href="#footer">Terms and Conditions</a></li>
                 </ul>
             </div>
             <h2>Cabin Coffee House &copy; 2021</h2>

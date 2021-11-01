@@ -19,7 +19,7 @@ export default function Hero() {
                         <span>Hazelnut Toffee Latte or our Toasted Cinnamon Cappuccino.</span>
                     </p>
                     <button>Find out more.</button>
-                    <p id="lower">Never been to Cabin Coffee House? <a href="">Find us here.</a></p>
+                    <p id="lower">Never been to Cabin Coffee House? <a href="#footer">Find us here.</a></p>
                 </div>
             </div>
         </div>
